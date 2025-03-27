@@ -5,6 +5,9 @@ package test;
 
 
 import java.util.List;
+
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
 public class MaximumSalary {
 
 	private static final String RED = "\033[1;31m";
@@ -19,6 +22,20 @@ public class MaximumSalary {
 		double max = list.stream().mapToDouble(Employee::getSalary).max().orElseThrow();
 		
 		System.out.println("Maximum Salary is : "+max);
+		
+		
+		System.out.println("\n********************************max salary without Stream******************************************");
+		
+		double maxsalary = Double.MIN_VALUE;
+		
+		
+		for (Employee emp : list) {
+			if (emp.getSalary() > maxsalary) {
+				maxsalary = emp.getSalary();
+			}
+		}
+		
+		System.out.println("Maximum Salary of employee is : "+maxsalary);
 	}
 	
 

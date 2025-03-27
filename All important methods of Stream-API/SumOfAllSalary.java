@@ -4,6 +4,8 @@ package test;
 //- Calculate the total sum of salaries for all employees.
 
 import java.util.List;
+
+import blc_class.*;
 public class SumOfAllSalary {
 
 	private static final String RED = "\033[1;31m";

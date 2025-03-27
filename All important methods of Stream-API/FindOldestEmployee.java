@@ -8,6 +8,9 @@ import java.util.Comparator;
 
 import java.util.List;
 
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
+
 public class FindOldestEmployee {
 
 	private static final String RED = "\033[1;31m";

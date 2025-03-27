@@ -7,6 +7,9 @@ package test;
 import java.util.List;
 import java.util.Scanner;
 
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
+
 
 public class EmployeeBySpecificAge {
 
@@ -25,14 +28,10 @@ public class EmployeeBySpecificAge {
 		
 		System.out.println(RED+"************ Find all employees who are exactly 35 years old.***********"+RESET);
 		
-		//By using Lambda.
 		
 		list.stream().filter(e -> e.getAge() == age).forEach(System.out::println);
 		
-		
-		//By using method Reference
-		
-//		list.stream().
+		in.close();
 		
 		
 	}

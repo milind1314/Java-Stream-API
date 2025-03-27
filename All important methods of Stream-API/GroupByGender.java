@@ -6,6 +6,9 @@ package test;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
 public class GroupByGender {
 
 	private static final String RED = "\033[1;31m";

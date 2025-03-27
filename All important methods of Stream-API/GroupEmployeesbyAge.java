@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
+
 public class GroupEmployeesbyAge {
 
 	private static final String RED = "\033[1;31m";

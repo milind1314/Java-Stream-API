@@ -5,6 +5,9 @@ package test;
 
 
 import java.util.List;
+
+import blc_class.Employee;
+import blc_class.EmployeeAdder;
 public class CountMaleEmployee {
 
 	private static final String RED = "\033[1;31m";
