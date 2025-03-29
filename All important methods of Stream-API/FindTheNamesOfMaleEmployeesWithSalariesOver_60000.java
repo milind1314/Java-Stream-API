@@ -1,7 +1,7 @@
 package test;
 
 //25. Find the Names of Male Employees with Salaries Over $60,000:
-//- Retrieve the names of male employees with salaries over $60,000.
+//- Retrieve the names of male employees with salaries over $53,000.
 
 import java.util.List;
 
